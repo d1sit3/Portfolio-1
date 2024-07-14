@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: Montserrat;
+}
+body{
+    color:white;
+    font-size: 16px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.body__header {
+    background-color: #444B58;
+    margin-bottom: 110px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 26px 30px ;
+}
+.header__logo {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #1d4ed8;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+.header__logo:hover{
+    -webkit-text-stroke: 1px #FFFFFF;
+}
+.nav__ul {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+.list__link::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #1d4ed8;
+    transition: all 0.3s ease;
+}
+.list__link:hover::after{
+    width: 80%;
+}
+.list__link {
+    position: relative;
+    color: #FFFFFF;
+    padding-bottom: 0.75rem;
+}
+.menu_small_icon{
+    display: none;
+}
+.stick {
+    width: 80%;
+    height: 5px;
+    background: #1d4ed8;
+}
+.jordan__img{
+    border-radius: 10px;
+    border: 3px solid #1d4ed8;
+
+}
+.body__main{
+    width: 100%;
+}
+.main__jordan{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.jordan__adv{
+    width: 50%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:15px;
+}
+.adv__text{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #1d4ed8;
+    color: #1d4ed8;
+    font-size: 2.25rem;
+}
+.adv__title{
+    font-size: 56px;
+}
+.blur{
+    position: absolute;
+    box-shadow: 0 0 1000px 50px #1d4ed8;
+    z-index: -100;
+    right: 40%;
+}
+.adv__link{
+    color:white;
+    font-size: 16px;
+    background-color: #1d4ed8;
+    width: 266px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    border-radius:10px ;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.adv__link:hover{
+    background-color: #1e40af;
+}
+.main__about{
+    margin-top: 182px;
+    color: #444B58;
+    display: flex;
+    background-color: #FFFFFF;
+    border: 3px solid #1d4ed8;
+}
+.about__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.about__content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.content__title{
+    font-size: 2.5rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #444B58;
+}
+
+.content__text{
+    width: 95%;
+    margin-bottom: 30px;
+}
+.content__line{
+    align-self: end;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.content__line > div{
+    background-color: #1d4ed8;
+    width: 30px;
+    height: 2px;
+}
+.about__img{
+    width: 50%;
+}
+.shoes__brand{
+    width: 270px;
+    height: 120px;
+}
+.main__pairs{
+    display: flex;
+    justify-content: space-around;
+}
+.pairs__shoes{
+    display: flex;
+    flex-direction: column;
+}
+.shoes__subtitle{
+    font-size: 30px;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #FFFFFF;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.shoes__brand{
+    width: 300px;
+    height: 120px;
+}
+.shoes__div{
+    display: flex;
+    margin-bottom: 2%;
+    gap: 50px;
+}
+.btn{
+    margin-left: 43%;
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    width: 13%;
+    color: #FFFFFF;
+    background-color: #1d4ed8;
+    transition:all 0.3s ease;
+}
+.btn:hover{
+    background-color: #1e40af;
+}
+.main__contacts{
+    border: 3px solid #1d4ed8;
+    margin-top: 3%;
+    color:#444B58;
+    background-color:#FFFFFF;
+}
+.container__title{
+    text-transform: uppercase;
+}
+.contacts__content{
+    padding: 70px;
+    display: flex;
+    gap: 20px;
+}
+.contacts__title{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #444B58;
+}
+.h4{
+    color: #B2B5BB;
+}
+.phone__number{
+    font-size: 1.5rem;
+    color: #444B58;
+    margin-bottom: 0.75rem;
+    transition: all 0.3s ease;
+}
+.phone__number:hover{
+    color: #1d4ed8;
+}
+.content__group{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.body__footer{
+    background-color: #444B58;
+    padding: 0 0 0 10%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer__subtitle{
+    margin-bottom: 1%;
+}
+.footer__subtitle{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #FFFFFF;
+    display: flex;
+    text-align: center;
+}
+.comp__line{
+    height: 1px;
+    width: 15%;
+    background-color: #FFFFFF;
+    margin-bottom: 1%;
+}
+.comp__text{
+    font-size: 20px;
+}
+.elements__link{
+    font-size: 20px;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+}
+.elements__link:hover{
+    color: #1d4ed8;
+}
+.footer__comp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.tele{
+    font-size: 40px;
+    color: #ccc;
+    transition: all 0.3s ease;
+}
+.inst{
+    font-size: 40px;
+    color: #ccc;
+    transition: all 0.3s ease;
+}
+.app{
+    font-size: 40px;
+    color: #ccc;
+    transition: all 0.3s ease;
+}
+.footer__social{
+    display: flex;
+    gap: 10px
+}
+.tele:hover{
+    color:#1d4ed8;
+}
+.inst:hover{
+    color: #1d4ed8;
+}
+.app:hover{
+    color: #1d4ed8;
+}
+.comp__list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer__comp2{
+    display: flex;
+    flex-direction: column;
+}
+.footer__line{
+    margin-top: 5%;
+    width: 90%;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+.footer__last{
+    margin-bottom: 2%;
+}
