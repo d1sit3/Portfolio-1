@@ -170,6 +170,7 @@ body{
 .pairs__shoes{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .shoes__subtitle{
     font-size: 30px;
@@ -189,11 +190,10 @@ body{
     gap: 50px;
 }
 .btn{
-    margin-left: 43%;
     padding: 20px;
     border: none;
     border-radius: 4px;
-    width: 13%;
+    width: 7rem;
     color: #FFFFFF;
     background-color: #1d4ed8;
     transition:all 0.3s ease;
@@ -235,6 +235,18 @@ body{
     display: flex;
     flex-direction: column;
     gap:30px;
+}
+.content__btn{
+    display: none;
+    padding: 1rem 2rem;
+    background-color: #1d4ed8;
+    border: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    color: #FFFFFF;
+}
+.content__btn:hover{
+    background-color: #1e40af;
 }
 .body__footer{
     background-color: #444B58;
